@@ -1,4 +1,7 @@
 
+body{
+    background-color: rgba(199, 227, 218, 0.663);
+}
 .item-img{
     width: 200px;
     height: 200px;
@@ -34,4 +37,61 @@ font-family:cursive;
     font-weight: 600;
     text-align: center;
     font-family:cursive;
+}
+
+
+/* Scale up and shake on hover */
+.bakery .list-group-item:hover {
+    animation: scaleShake 0.5s infinite; /* Start combined scale and shake animation */
+}
+
+/* Add smooth scaling transition */
+.bakery .list-group-item {
+    transition: transform 0.3s ease;
+}
+
+/* Combined scale and shake animation */
+@keyframes scaleShake {
+    0%, 100% { transform: scale(1.1) translateX(0); }
+    25% { transform: scale(1.1) translateX(-3px); }
+    50% { transform: scale(1.1) translateX(3px); }
+    75% { transform: scale(1.1) translateX(-3px); }
+}
+
+/* i am adding coffee part animation */
+
+.coffee .list-group-item:hover {
+    animation: scaleShake 0.5s infinite; /* Start combined scale and shake animation */
+}
+
+/* Add smooth scaling transition */
+.coffee .list-group-item {
+    transition: transform 0.3s ease;
+}
+
+/* Combined scale and shake animation */
+@keyframes scaleShake {
+    0%, 100% { transform: scale(1.1) translateX(0); }
+    25% { transform: scale(1.1) translateX(-3px); }
+    50% { transform: scale(1.1) translateX(3px); }
+    75% { transform: scale(1.1) translateX(-3px); }
+}
+.bakery .list-group-item,
+.coffee .list-group-item {
+    background-color: transparent; /* Remove background color */
+    border: none; /* Optional: remove border if any */
+    box-shadow: none; /* Optional: remove shadow if any */
+}
+
+
+@keyframes h2TiltShake {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); } /* Tilt left */
+    50% { transform: rotate(5deg); }  /* Tilt right */
+    75% { transform: rotate(-5deg); } /* Tilt left */
+}
+
+/* Apply tilt shake animation to h2 */
+h2 {
+    animation: h2TiltShake 1s infinite; /* Shake every 1 second */
 }
