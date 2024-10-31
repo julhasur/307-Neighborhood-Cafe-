@@ -29,11 +29,23 @@ h1{
 nav{
     display: flex;
     justify-content: space-evenly;
-    color: rgb(37, 108, 232);
+    color: rgb(100, 32, 12);
     gap: 15px;
   
    
 }
+nav ul{
+    list-style: none;
+   
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a:hover {
+    color: #666; /* Changes color on hover */
+}
+
 .add{
     margin-top: 0%;
     padding:10px ;
@@ -56,5 +68,5 @@ image-rendering:inherit;
     display: inline-block;
    position: relative;
    justify-content: space-around;
-   background-color: blue;
+   background-color: rgba(0, 0, 255, 0);
 }
