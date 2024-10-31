@@ -1,0 +1,16 @@
+.item-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   position:;
+
+   object-fit: cover;
+   padding-left: 0px;
+   margin-left:10px;
+
+}
+.item-img-png{
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+}
