@@ -1,8 +1,9 @@
+
 .item-img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-   position:;
+   
 
    object-fit: cover;
    padding-left: 0px;
@@ -13,4 +14,24 @@
     width: 200px;
     height: 200px;
     object-fit:contain;
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:rgba(201, 164, 28, 0.625)
+    
+}
+.item-name{
+text-align: center;
+font-size: medium;
+font-weight: 600;
+font-family:cursive;
+}
+.price{
+    font-weight: 600;
+    text-align: center;
+    font-family:cursive;
 }
